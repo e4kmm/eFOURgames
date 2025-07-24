@@ -1,0 +1,35 @@
+{
+  "name": "e4kmgames",
+  "version": "1.0.0",
+  "description": "موقع ألعاب تفاعلي باللغة العربية",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "games",
+    "arabic",
+    "twitch",
+    "interactive"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "framer-motion": "^12.23.6",
+    "next": "^13.4.19",
+    "react": "^18.2.0",
+    "react-custom-roulette": "^1.4.1",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "styled-components": "^6.0.7",
+    "tmi.js": "^1.8.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.47.0",
+    "eslint-config-next": "^13.4.19"
+  }
+}

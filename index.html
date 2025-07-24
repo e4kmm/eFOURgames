@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="موقع ألعاب E4KM - منصة ألعاب عربية متنوعة">
+    <meta name="keywords" content="ألعاب, ألعاب عربية, E4KM, ألعاب تفاعلية">
+    <title>موقع ألعاب E4KM</title>
+    <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="assets/images/logo.svg" alt="E4KM Games Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">الرئيسية</a></li>
+                    <li><a href="#games">الألعاب</a></li>
+                    <li><a href="#about">من نحن</a></li>
+                    <li><a href="#contact">اتصل بنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>أفضل الألعاب العربية</h2>
+                <p>استمتع بمجموعة متنوعة من الألعاب المصممة خصيصًا للمستخدمين العرب</p>
+                <a href="#games" class="btn">استكشف الألعاب</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="games" class="games">
+        <div class="container">
+            <h2 class="section-title">ألعابنا</h2>
+            <div class="games-grid">
+                <div class="game-card">
+                    <div class="game-image">
+                        <img src="assets/images/game1.svg" alt="لعبة المغامرة">
+                    </div>
+                    <div class="game-info">
+                        <h3>لعبة المغامرة</h3>
+                        <p>اختبر مهاراتك اللغوية في تخمين الكلمات</p>
+                        <a href="#" class="btn-small">العب الآن</a>
+                    </div>
+                </div>
+                <div class="game-card">
+                    <div class="game-image">
+                        <img src="assets/images/game2.svg" alt="لعبة الألغاز">
+                    </div>
+                    <div class="game-info">
+                        <h3>لعبة الألغاز</h3>
+                        <p>لعبة ممتعة للعب مع الأصدقاء</p>
+                        <a href="#" class="btn-small">العب الآن</a>
+                    </div>
+                </div>
+                <div class="game-card">
+                    <div class="game-image">
+                        <img src="assets/images/game3.svg" alt="لعبة السباق">
+                    </div>
+                    <div class="game-info">
+                        <h3>لعبة السباق</h3>
+                        <p>ترقبوا ألعابنا الجديدة قريبًا</p>
+                        <a href="#" class="btn-small">المزيد</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">من نحن</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>نحن فريق متخصص في تطوير الألعاب العربية التفاعلية التي تناسب جميع الفئات العمرية. هدفنا هو تقديم تجربة ممتعة وتعليمية للمستخدمين العرب.</p>
+                    <p>تم تأسيس E4KM Games بهدف سد الفجوة في سوق الألعاب العربية وتقديم محتوى عالي الجودة يحترم الثقافة والقيم العربية.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">اتصل بنا</h2>
+            <div class="contact-content">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">الاسم</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">البريد الإلكتروني</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">الرسالة</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">إرسال</button>
+                </form>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@e4kmgames.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+966 123 456 789</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 E4KM Games. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
